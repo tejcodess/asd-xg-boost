@@ -1,0 +1,9 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add a clean medical background */
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
