@@ -22,34 +22,79 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+*.pyo
+*.pyd
 
 # Virtual environments
 venv/
 ENV/
 env/
 .venv
+virtualenv/
+pipenv/
 
-# IDE
+# IDE & Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
 
 # Node modules
 node_modules/
 npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # Large media files (exceed GitHub's 100MB limit)
 *.webm
 *.mp4
 *.avi
 *.mov
+*.flv
 
-# Other large files
+# Data files
 *.xlsx
+*.xls
 *.csv
+*.json.bak
 
-# Temp files
+# Temporary files
 temp_uploads/
+*.tmp
+*.temp
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
